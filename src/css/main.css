@@ -78,3 +78,15 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
     background-color: #c2c2c2;
 }
+
+.brawl {
+    margin: 3%;
+}
+
+.w3-card-4 {
+    width: 32%;
+}
+
+.w3-card-4 img {
+    width: 90%;
+}
