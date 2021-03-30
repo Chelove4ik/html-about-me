@@ -32,3 +32,22 @@ section {
     margin: 2em auto;
     font-size: 1.2em;
 }
+
+footer {
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #548aa7;
+}
+
+footer p {
+    color: white;
+    font-size: 1.4em;
+    margin: 10px auto;
+}
+
+footer li {
+    display: inline-block;
+    margin: auto 5px;
+    font-size: 1.3em;
+}
