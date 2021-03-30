@@ -51,3 +51,30 @@ footer li {
     margin: auto 5px;
     font-size: 1.3em;
 }
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+.yes-or-not {
+    text-align: center;
+}
+
+thead {
+    background-image: url("https://img4.goodfon.ru/wallpaper/nbig/b/5e/napitki-kokteil-fon.jpg");
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #c2c2c2;
+}
