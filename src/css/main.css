@@ -3,19 +3,18 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(221,221,233,1) 25%, rgba(221,221,233,1) 75%, rgba(0,0,0,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(221, 221, 233, 1) 25%, rgba(221, 221, 233, 1) 75%, rgba(0, 0, 0, 1) 100%);
 }
 
 .about-me {
     display: flex;
     flex-direction: column;
-    /*margin: auto;*/
     width: 50%;
     text-align: center;
 }
 
-.about-me div {
+.about-me {
     font-family: Consolas, sans-serif;
     font-size: 20px;
 }
@@ -27,7 +26,7 @@ body {
     margin: 3% auto;
 }
 
-div div img {
+.image-me {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -40,10 +39,18 @@ div div img {
     justify-content: space-around;
 }
 
+.achievements, .tasks {
+    font-family: Consolas, sans-serif;
+    font-size: 16px;
+}
+
+.tasks div, .achievements div {
+    text-align: center;
+}
 
 @media (max-width: 679px) {
     body {
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(221,221,233,1) 5%, rgba(221,221,233,1) 95%, rgba(0,0,0,1) 100%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(221, 221, 233, 1) 5%, rgba(221, 221, 233, 1) 95%, rgba(0, 0, 0, 1) 100%);
     }
 
     .me {
