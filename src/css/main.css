@@ -1,72 +1,34 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #f8f8e8;
 }
 
 header {
-    width: 30%;
+    padding: 3em 0;
+    background-image: url("https://unetway.com/uploads/blog/af/83/68/af8368eeda525e85bef423cc82279598.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
     text-align: center;
 }
 
 header a {
-    margin: auto 10%;
+    font-family: "Times New Roman", serif;
+    font-size: 2em;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
 }
 
-.about-me {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    text-align: center;
+header h1 {
+    margin: 1px auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
 }
 
-.about-me {
-    font-family: Consolas, sans-serif;
-    font-size: 20px;
-}
-
-.me {
-    display: flex;
-    width: 40%;
-    justify-content: space-around;
-    margin: 3% auto;
-}
-
-.image-me {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 10% auto;
-}
-
-.info {
-    display: flex;
-    width: 40%;
-    justify-content: space-around;
-}
-
-.achievements, .tasks {
-    font-family: Consolas, sans-serif;
-    font-size: 16px;
-}
-
-.tasks div, .achievements div {
-    text-align: center;
-}
-
-@media (max-width: 679px) {
-    .me {
-        flex-direction: column;
-        width: 60%;
-        align-items: center;
-    }
-
-    .about-me {
-        width: 80%;
-    }
-
-    .info {
-        flex-direction: column;
-        justify-content: space-between;
-    }
+section {
+    max-width: 23em;
+    margin: 2em auto;
+    font-size: 1.2em;
 }
