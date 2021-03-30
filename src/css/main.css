@@ -7,6 +7,15 @@ body {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(221, 221, 233, 1) 25%, rgba(221, 221, 233, 1) 75%, rgba(0, 0, 0, 1) 100%);
 }
 
+header {
+    width: 30%;
+    text-align: center;
+}
+
+header a {
+    margin: auto 10%;
+}
+
 .about-me {
     display: flex;
     flex-direction: column;
